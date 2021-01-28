@@ -1,0 +1,43 @@
+---
+title: "Notes - PowerBI"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Chapter 1
+
+#### Why Power BI
+
+Leading data visualization tool, over 97\% of Fortune 500 companies use Power BI, over 6 million customers.
+
+Power BI components: Power BI Desktop (Desktop version, Data analysis and report creation tool, Includes the Power Query Editor, 100\% free)
+
+Power BI service: Cloud-based version, light report editing, share and distribute reports.
+
+Power BI Pro (publish and share across the Power BI cloud platform)
+
+dataset structure: snowflake scheme, fact table (dynamic) and dimension tables (more static, e.g., holds contact information of customers)
+
+
+<!-- ## R Markdown -->
+
+<!-- This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>. -->
+
+<!-- When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this: -->
+
+<!-- ```{r cars} -->
+<!-- summary(cars) -->
+<!-- ``` -->
+
+<!-- ## Including Plots -->
+
+<!-- You can also embed plots, for example: -->
+
+<!-- ```{r pressure, echo=FALSE} -->
+<!-- plot(pressure) -->
+<!-- ``` -->
+
+<!-- Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot. -->
