@@ -22,6 +22,61 @@ Power BI Pro (publish and share across the Power BI cloud platform)
 dataset structure: snowflake scheme, fact table (dynamic) and dimension tables (more static, e.g., holds contact information of customers)
 
 
+
+### Chapter 3 - Introduction to DAX
+
+#### DAX functions
+predefined formulas that perform calculations on specific values called arguments, function syntax indicates the order of arguments expected
+
+DAX functions examples:
+
+SUM()
+LEFT()
+
+POWER BI intellisense
+
+Creating calculations, new column can be based on other columns from any table; creating blank table copy an existing table, defined calculations
+
+calculated as you interact and filter
+
+creating calculations, start with a name and an equal sign
+
+create new table from table view, click the check mark to create the table, drag in new table
+
+add the \& sign to append two columns
+
+#### Calculated measures
+in the report view, COUNT(); newly created measure in the table view might not belong to any table, hence need to create a new table, and assign home table to the newly calculated measures.  
+
+creating a measure using existing measures, Average Transaction = DIVIDE(Total Sales, Transaction count)
+
+#### Calculated measures and quick measures
+CALCULATE(Aggregation, filter, [filter]...)
+
+Aggregation: SUM(), COUNT(), AVERAGE()
+
+Quick measures: complex measures without writing DAX, menu provides calculations under 6 categories
+
+drag and drop
+
+Time-based calculations: year to date, quarter over quarter growth
+
+provide the ability to create in-depth time analysis
+
+Calculate, 
+
+
+#### Time-based calculations
+Table tools, mark as date table
+
+
+sameperiodslastyear, always refers to the date table
+
+
+
+
+
+
 <!-- ## R Markdown -->
 
 <!-- This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>. -->
